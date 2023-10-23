@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Shorts_Remover",
+    "version": "0.0.1",
+    "icons": {
+        "16": "icon.jpg",
+        "32": "icon.jpg",
+        "48": "icon.jpg",
+        "128": "icon.jpg"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["Content.js"]
+    }]
+}

@@ -1,0 +1,16 @@
+{
+    "manifest_version": 1, 
+    //Manifest version used
+    "name":"Shorts_Remover",
+    // Name of Extension
+    "version": "0.0.1",
+    //Version of the extension
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            // browsers to work on
+            "js":["Content.js"]
+            //js to start whenever extension enabled
+        }
+    ]
+}
